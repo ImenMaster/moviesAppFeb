@@ -1,0 +1,179 @@
+/*=============================================
+=            Font Family                      =
+=============================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@500&display=swap");
+
+/*-------- Font ElegantIcons Icon --------*/
+
+@font-face {
+    font-family: "elegant-icons";
+    src: url("./icon_fonts/elegant-icons/elegant-icons.eot");
+    src: url("./icon_fonts/elegant-icons/elegant-icons.eot?#iefix") format("eot"), url("./icon_fonts/elegant-icons/elegant-icons.woff") format("woff"), url("./icon_fonts/elegant-icons/elegant-icons.ttf") format("truetype"),
+        url("./icon_fonts/elegant-icons/elegant-icons.svg#elegant-icons") format("svg");
+}
+
+.ei {
+    text-decoration: none;
+    text-transform: none;
+    font-family: "elegant-icons";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    speak: none;
+}
+
+/*=============================================
+=            Global Style                      =
+=============================================*/
+
+body {
+    color: #444;
+    background: #efefef !important;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+/*=============================================
+=         Component Navbar                    =
+=============================================*/
+
+.Navbar {
+    z-index: 9999;
+    height: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(51, 51, 51);
+}
+
+.logo {
+    font-family: "Indie Flower", cursive;
+}
+
+.dv-star-rating {
+    margin: 9px;
+}
+
+.form-inline {
+    height: fit-content;
+}
+
+.input-search {
+    height: 55px;
+    padding: 12px 10px 10px 20px;
+}
+
+.input-search:focus {
+    box-shadow: none !important;
+}
+
+.ei-icon_search {
+    right: 15px;
+}
+
+.ei-icon_search:before {
+    content: "\55";
+}
+
+/*=============================================
+=            Component Banner                 =
+=============================================*/
+
+.Banner {
+    height: 87vh;
+    margin: 0 0 80px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Asserts/Img/48809aaf53cfd24899f1cbf222db555c.png) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-border-radius: 5px;
+    padding: 60px;
+}
+
+.banner small {
+    font: 500 0.875rem "Poppins", Helvetica, sans-serif;
+}
+
+.banner h3 {
+    margin: 10px 0 0 0;
+    font: 500 2rem/1.2 "Poppins", Helvetica, sans-serif;
+}
+
+.banner p {
+    font: 400 1.3125rem/1.5 "Poppins", Helvetica, sans-serif;
+}
+
+/*=============================================
+=            Component Movies                 =
+=============================================*/
+
+/* Title Section */
+
+.title-section {
+    margin-bottom: 1em;
+    padding: 0.3em 0.5em;
+    border-left: 5px solid #d13008;
+    text-transform: uppercase;
+    font: 500 1.2rem/1.9 "Poppins", Helvetica, sans-serif;
+    color: #212121;
+}
+
+/* Card */
+
+.card-movie {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    font: 500 0.8125rem/1.9 "Poppins", Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.card-movie img {
+    height: inherit;
+}
+
+.card-movie .card-ovr {
+    position: absolute;
+    height: 100%;
+    padding: 6rem 1rem;
+    font: 500 0.8125rem/1.7 "Poppins", Helvetica, sans-serif;
+    background-image: linear-gradient(to top, rgba(2, 14, 51, 0.7) 10%, #132692);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.card-movie:hover .card-ovr {
+    -webkit-transform: translateY(-9%);
+    -moz-transform: translateY(-9%);
+    -ms-transform: translateY(-9%);
+    -o-transform: translateY(-9%);
+    transform: translateY(-9%);
+}
+
+.footer-card-movie {
+    bottom: -1px;
+    padding-top: 15px;
+    text-align: center;
+    font: 500 0.8125rem/1 "Poppins", Helvetica, sans-serif;
+    background-color: #040847;
+}

@@ -1,0 +1,60 @@
+{
+  "_from": "@icon/elegant-icons",
+  "_id": "@icon/elegant-icons@0.0.1-alpha.4",
+  "_inBundle": false,
+  "_integrity": "sha512-D9+WZdWppJNi1cTG2M5Zkmxxs5zEwDJXGdE2l754rTvH25n6DmXVSjgYnvbfYmb10a2OuStmKLvG5Je/mbzx3g==",
+  "_location": "/@icon/elegant-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@icon/elegant-icons",
+    "name": "@icon/elegant-icons",
+    "escapedName": "@icon%2felegant-icons",
+    "scope": "@icon",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@icon/elegant-icons/-/elegant-icons-0.0.1-alpha.4.tgz",
+  "_shasum": "eb3ddbd9d4e8d8ff1c900088e3c85680d6dbf42b",
+  "_spec": "@icon/elegant-icons",
+  "_where": "/home/siala/Documents/Leader/restaurant",
+  "author": {
+    "name": "Elegant Themes"
+  },
+  "bugs": {
+    "url": "https://github.com/thecreation/standard-icons/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Elegant Themes Icons",
+  "devDependencies": {
+    "elegant-icons": "^0.0.1"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074",
+  "homepage": "https://www.elegantthemes.com/blog/resources/elegant-icon-font",
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "license": "MIT",
+  "name": "@icon/elegant-icons",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecreation/standard-icons/tree/master/modules/elegant-icons"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=elegant-icons",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "version": "0.0.1-alpha.4"
+}
