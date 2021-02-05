@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/moviesAppFeb/static/css/main.721036f2.chunk.css",
+    "main.js": "/moviesAppFeb/static/js/main.851d82b6.chunk.js",
+    "main.js.map": "/moviesAppFeb/static/js/main.851d82b6.chunk.js.map",
+    "runtime-main.js": "/moviesAppFeb/static/js/runtime-main.c9099a90.js",
+    "runtime-main.js.map": "/moviesAppFeb/static/js/runtime-main.c9099a90.js.map",
+    "static/css/2.150d169a.chunk.css": "/moviesAppFeb/static/css/2.150d169a.chunk.css",
+    "static/js/2.6ef87022.chunk.js": "/moviesAppFeb/static/js/2.6ef87022.chunk.js",
+    "static/js/2.6ef87022.chunk.js.map": "/moviesAppFeb/static/js/2.6ef87022.chunk.js.map",
+    "static/js/3.c30a50de.chunk.js": "/moviesAppFeb/static/js/3.c30a50de.chunk.js",
+    "static/js/3.c30a50de.chunk.js.map": "/moviesAppFeb/static/js/3.c30a50de.chunk.js.map",
+    "index.html": "/moviesAppFeb/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/moviesAppFeb/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.721036f2.chunk.css.map": "/moviesAppFeb/static/css/main.721036f2.chunk.css.map",
+    "static/js/2.6ef87022.chunk.js.LICENSE.txt": "/moviesAppFeb/static/js/2.6ef87022.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/moviesAppFeb/static/media/elegant-icons.a3709f85.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9099a90.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.6ef87022.chunk.js",
+    "static/css/main.721036f2.chunk.css",
+    "static/js/main.851d82b6.chunk.js"
+  ]
+}
